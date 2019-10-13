@@ -1,0 +1,2084 @@
+slaveButton1_GUID = "8bc0cd"
+slaveButton2_GUID = "335fce"
+slavePVE_GUID = "0e71f8"
+slavePVP_GUID = "82d1cf"
+
+slavePVEDice1_GUID = "e1e0fc"
+slavePVEDice2_GUID = "b651b8"
+slavePVEDice3_GUID = "0b2048"
+slavePVEDice4_GUID = "b01dcd"
+
+slavePVPDice1_GUID = "0b2048"
+slavePVPDice2_GUID = "b01dcd"
+
+soldierButton1_GUID = "8d5801"
+soldierButton2_GUID = "120b96"
+soldierPVE_GUID = "d93e7c"
+soldierPVP_GUID = "a1bd72"
+
+royaltyButton1_GUID = "a55760"
+royaltyButton2_GUID = "d87798"
+royaltyPVE_GUID = "77da75"
+royaltyPVP_GUID = "555797"
+
+heroButton1_GUID = "551919"
+heroButton2_GUID = "0f9bbe"
+heroPVE_GUID = "3a2a6d"
+heroPVP_GUID = "ad1827"
+
+
+bodyHitLocation_GUID = "e8d49c"
+focusButton_GUID = "ea1c52"
+
+arenaCards_GUID = "cbf18b"
+goldTwo_GUID = "b320ba"
+goldOne_GUID = "10d01e"
+goldThree_GUID = ""
+goldFive_GUID = "ab3b22"
+
+marketMat_GUID = "1d589d"
+marketDice_GUID = "46e114"
+
+armorWeaponSpawnMat_GUID = "c15047"
+armorWeaponSpawnDice_GUID = "3b4e84"
+
+itemNPCSpawnMat_GUID = "343e64"
+itemNPCSpawnDice_GUID = "3d8bbc"
+
+gridLocationDiceA_GUID = "5ef62a"
+gridLocationDice1_GUID = "5035fe"
+
+coordinateFinder_GUID = "d1afe9"
+
+floorSpikes1_GUID = "516e2f"
+floorSpikes2_GUID = "3b0708"
+floorSpikes3_GUID = "dddb4b"
+floorSpikes4_GUID = "a7fb3d"
+
+blessings1_GUID = "265eb6"
+
+counterRed_GUID = "d164db"
+counterBlue_GUID = "126551"
+counterGreen_GUID = "a7314c"
+counterYellow_GUID = "d5f4b1"
+
+counterBeary_GUID = "2451f0"
+counterBeara_GUID = "441242"
+counterCudd_GUID = "94d772"
+counterWulf_GUID = "64af8c"
+counterEric_GUID = "290345"
+counterSand_GUID = "cd8286"
+counterRory_GUID = "576ae8"
+counterZeke_GUID = "0f77c4"
+counterTholo_GUID = "c77110"
+counterComm_GUID = "91a4bf"
+
+animalInfoButton_GUID = "f8fd8a"
+
+
+button_parametersArmorWeapon = {}
+button_parametersArmorWeapon.click_function = 'buttonClickedArmorWeapon'
+button_parametersArmorWeapon.function_owner = nil
+button_parametersArmorWeapon.label = 'Armor/Weapon Roll '
+button_parametersArmorWeapon.position = {0,1/2,0,1/2}
+button_parametersArmorWeapon.rotation = {0,180,0}
+button_parametersArmorWeapon.width = 3600
+button_parametersArmorWeapon.height = 1800
+button_parametersArmorWeapon.font_size = 350
+button_parametersArmorWeapon.font_color = {255,255,255}
+button_parametersArmorWeapon.color = {96/255,96/255,96/255}
+
+button_parametersItem = {}
+button_parametersItem.click_function = 'buttonClickedItem'
+button_parametersItem.function_owner = nil
+button_parametersItem.label = 'Blessings Roll '
+button_parametersItem.position = {0,1/2,0,1/2}
+button_parametersItem.rotation = {0,180,0}
+button_parametersItem.width = 3600
+button_parametersItem.height = 1800
+button_parametersItem.font_size = 350
+button_parametersItem.font_color = {255,255,255}
+button_parametersItem.color = {96/255,96/255,96/255}
+
+
+
+
+
+
+
+button_parametersMarket = {}
+button_parametersMarket.click_function = 'buttonClickedMarket'
+button_parametersMarket.function_owner = nil
+button_parametersMarket.label = 'Market Roll'
+button_parametersMarket.position = {0,1/2,0,1/2}
+button_parametersMarket.rotation = {0,0,0}
+button_parametersMarket.width = 1200
+button_parametersMarket.height = 800
+button_parametersMarket.font_size = 200
+button_parametersMarket.color = {206/255,173/255,43/255}
+
+
+
+
+
+button_parameters1 = {}
+button_parameters1.click_function = 'buttonClickedCard'
+button_parameters1.function_owner = nil
+button_parameters1.label = '1 Card'
+button_parameters1.position = {0,1,0,1}
+button_parameters1.rotation = {0,180,0}
+button_parameters1.width = 1800
+button_parameters1.height = 1800
+button_parameters1.font_size = 500
+button_parameters1.color = {1,128/255,0}
+
+button_parameters2 = {}
+button_parameters2.click_function = 'buttonClickedGold'
+button_parameters2.function_owner = nil
+button_parameters2.label = '2 Gold'
+button_parameters2.position = {0,1,0,1}
+button_parameters2.rotation = {0,180,0}
+button_parameters2.width = 1800
+button_parameters2.height = 1800
+button_parameters2.font_size = 500
+button_parameters2.color = {153/255,153/255,0}
+
+
+button_parametersS = {}
+button_parametersS.click_function = 'buttonClickedCard2'
+button_parametersS.function_owner = nil
+button_parametersS.label = '1 Card'
+button_parametersS.position = {0,1,0,1}
+button_parametersS.rotation = {0,180,0}
+button_parametersS.width = 1800
+button_parametersS.height = 1800
+button_parametersS.font_size = 500
+button_parametersS.color = {1,128/255,0}
+
+button_parametersS2 = {}
+button_parametersS2.click_function = 'buttonClickedGold2'
+button_parametersS2.function_owner = nil
+button_parametersS2.label = '2 Gold'
+button_parametersS2.position = {0,1,0,1}
+button_parametersS2.rotation = {0,180,0}
+button_parametersS2.width = 1800
+button_parametersS2.height = 1800
+button_parametersS2.font_size = 500
+button_parametersS2.color = {153/255,153/255,0}
+
+button_parametersR = {}
+button_parametersR.click_function = 'buttonClickedCard3'
+button_parametersR.function_owner = nil
+button_parametersR.label = '1 Card'
+button_parametersR.position = {0,1,0,1}
+button_parametersR.rotation = {0,180,0}
+button_parametersR.width = 1800
+button_parametersR.height = 1800
+button_parametersR.font_size = 500
+button_parametersR.color = {1,128/255,0}
+
+button_parametersR2 = {}
+button_parametersR2.click_function = 'buttonClickedGold3'
+button_parametersR2.function_owner = nil
+button_parametersR2.label = '2 Gold'
+button_parametersR2.position = {0,1,0,1}
+button_parametersR2.rotation = {0,180,0}
+button_parametersR2.width = 1800
+button_parametersR2.height = 1800
+button_parametersR2.font_size = 500
+button_parametersR2.color = {153/255,153/255,0}
+
+button_parametersH = {}
+button_parametersH.click_function = 'buttonClickedCard4'
+button_parametersH.function_owner = nil
+button_parametersH.label = '1 Card'
+button_parametersH.position = {0,1,0,1}
+button_parametersH.rotation = {0,180,0}
+button_parametersH.width = 1800
+button_parametersH.height = 1800
+button_parametersH.font_size = 500
+button_parametersH.color = {1,128/255,0}
+
+button_parametersH2 = {}
+button_parametersH2.click_function = 'buttonClickedGold4'
+button_parametersH2.function_owner = nil
+button_parametersH2.label = '2 Gold'
+button_parametersH2.position = {0,1,0,1}
+button_parametersH2.rotation = {0,180,0}
+button_parametersH2.width = 1800
+button_parametersH2.height = 1800
+button_parametersH2.font_size = 500
+button_parametersH2.color = {153/255,153/255,0}
+
+
+
+button_parametersPVE = {}
+button_parametersPVE.click_function = 'buttonClickedPVE'
+button_parametersPVE.function_owner = nil
+button_parametersPVE.label = 'Attacking NPC...'
+button_parametersPVE.position = {0,1,0,1}
+button_parametersPVE.rotation = {0,180,0}
+button_parametersPVE.width = 3400
+button_parametersPVE.height = 2500
+button_parametersPVE.font_size = 500
+button_parametersPVE.color = {192/255,192/255,192/255}
+
+button_parametersPVP = {}
+button_parametersPVP.click_function = 'buttonClickedPVP'
+button_parametersPVP.function_owner = nil
+button_parametersPVP.label = 'Attacking Player...'
+button_parametersPVP.position = {0,1,0,1}
+button_parametersPVP.rotation = {0,180,0}
+button_parametersPVP.width = 3400
+button_parametersPVP.height = 2500
+button_parametersPVP.font_size = 500
+button_parametersPVP.color = {1,102/255,102/255}
+
+button_parametersPVE2 = {}
+button_parametersPVE2.click_function = 'buttonClickedPVE2'
+button_parametersPVE2.function_owner = nil
+button_parametersPVE2.label = 'Attacking NPC...'
+button_parametersPVE2.position = {0,1,0,1}
+button_parametersPVE2.rotation = {0,180,0}
+button_parametersPVE2.width = 3400
+button_parametersPVE2.height = 2500
+button_parametersPVE2.font_size = 500
+button_parametersPVE2.color = {192/255,192/255,192/255}
+
+button_parametersPVP2 = {}
+button_parametersPVP2.click_function = 'buttonClickedPVP2'
+button_parametersPVP2.function_owner = nil
+button_parametersPVP2.label = 'Attacking Player...'
+button_parametersPVP2.position = {0,1,0,1}
+button_parametersPVP2.rotation = {0,180,0}
+button_parametersPVP2.width = 3400
+button_parametersPVP2.height = 2500
+button_parametersPVP2.font_size = 500
+button_parametersPVP2.color = {1,102/255,102/255}
+
+button_parametersPVE3 = {}
+button_parametersPVE3.click_function = 'buttonClickedPVE3'
+button_parametersPVE3.function_owner = nil
+button_parametersPVE3.label = 'Attacking NPC...'
+button_parametersPVE3.position = {0,1,0,1}
+button_parametersPVE3.rotation = {0,180,0}
+button_parametersPVE3.width = 3400
+button_parametersPVE3.height = 2500
+button_parametersPVE3.font_size = 500
+button_parametersPVE2.color = {192/255,192/255,192/255}
+
+button_parametersPVP3 = {}
+button_parametersPVP3.click_function = 'buttonClickedPVP3'
+button_parametersPVP3.function_owner = nil
+button_parametersPVP3.label = 'Attacking Player...'
+button_parametersPVP3.position = {0,1,0,1}
+button_parametersPVP3.rotation = {0,180,0}
+button_parametersPVP3.width = 3400
+button_parametersPVP3.height = 2500
+button_parametersPVP3.font_size = 500
+button_parametersPVP3.color = {1,102/255,102/255}
+
+
+button_parametersPVE4 = {}
+button_parametersPVE4.click_function = 'buttonClickedPVE4'
+button_parametersPVE4.function_owner = nil
+button_parametersPVE4.label = 'Attacking NPC...'
+button_parametersPVE4.position = {0,1,0,1}
+button_parametersPVE4.rotation = {0,180,0}
+button_parametersPVE4.width = 3400
+button_parametersPVE4.height = 2500
+button_parametersPVE4.font_size = 500
+button_parametersPVE4.color = {192/255,192/255,192/255}
+
+button_parametersPVP4 = {}
+button_parametersPVP4.click_function = 'buttonClickedPVP4'
+button_parametersPVP4.function_owner = nil
+button_parametersPVP4.label = 'Attacking Player...'
+button_parametersPVP4.position = {0,1,0,1}
+button_parametersPVP4.rotation = {0,180,0}
+button_parametersPVP4.width = 3400
+button_parametersPVP4.height = 2500
+button_parametersPVP4.font_size = 500
+button_parametersPVP4.color = {1,102/255,102/255}
+
+button_parametersFocusPVP = {}
+button_parametersFocusPVP.click_function = 'buttonClickedFocus'
+button_parametersFocusPVP.function_owner = nil
+button_parametersFocusPVP.label = 'Focus Attack'
+button_parametersFocusPVP.position = {0,1,0,1}
+button_parametersFocusPVP.rotation = {0,180,0}
+button_parametersFocusPVP.width = 3400
+button_parametersFocusPVP.height = 2000
+button_parametersFocusPVP.font_size = 400
+button_parametersFocusPVP.font_color = {153/255,0,0}
+button_parametersFocusPVP.color = {128/255,128/255,128/255}
+
+button_parametersAnimalInfo = {}
+button_parametersAnimalInfo.click_function = 'animalInfo'
+button_parametersAnimalInfo.function_owner = nil
+button_parametersAnimalInfo.label = 'NPC Health'
+button_parametersAnimalInfo.position = {0,1,0,1}
+button_parametersAnimalInfo.rotation = {0,180,0}
+button_parametersAnimalInfo.width = 3400
+button_parametersAnimalInfo.height = 2000
+button_parametersAnimalInfo.font_size = 400
+button_parametersAnimalInfo.font_color = {255,255,255}
+button_parametersAnimalInfo.color = {96/255,96/255,96/255}
+
+
+function onload()
+   MOTD = "Welcome to Flavius' Rule!"
+   broadcastToAll(MOTD, {153/255,153/255,0/255})
+   broadcastToAll("4 players needed to begin", {255,51/255,51/255})
+   broadcastToAll("**RULE UPDATE**", {0/255,255,128/255})
+   broadcastToAll("It now costs 3 CP to access the market on your turn.", {255,102/255,102/255})
+
+   counterBeary = getObjectFromGUID(counterBeary_GUID)
+   counterBeara = getObjectFromGUID(counterBeara_GUID)
+   counterCudd = getObjectFromGUID(counterCudd_GUID)
+   counterWulf = getObjectFromGUID(counterWulf_GUID)
+   counterEric = getObjectFromGUID(counterEric_GUID)
+   counterSand = getObjectFromGUID(counterSand_GUID)
+   counterRory = getObjectFromGUID(counterRory_GUID)
+   counterZeke = getObjectFromGUID(counterZeke_GUID)
+   counterTholo = getObjectFromGUID(counterTholo_GUID)
+   counterComm = getObjectFromGUID(counterComm_GUID)
+
+
+   countRed = getObjectFromGUID(counterRed_GUID)
+   countBlue = getObjectFromGUID(counterBlue_GUID)
+   countGreen = getObjectFromGUID(counterGreen_GUID)
+   countYellow = getObjectFromGUID(counterYellow_GUID)
+
+
+   drawButton = getObjectFromGUID(slaveButton1_GUID)
+   goldTwoButton = getObjectFromGUID(slaveButton2_GUID)
+   drawButton2 = getObjectFromGUID(soldierButton1_GUID)
+   goldTwoButton2 = getObjectFromGUID(soldierButton2_GUID)
+   drawButton3 = getObjectFromGUID(royaltyButton1_GUID)
+   goldTwoButton3 = getObjectFromGUID(royaltyButton2_GUID)
+   drawButton4 = getObjectFromGUID(heroButton1_GUID)
+   goldTwoButton4 = getObjectFromGUID(heroButton2_GUID)
+
+   pveButton = getObjectFromGUID(slavePVE_GUID)
+   pvpButton  = getObjectFromGUID(slavePVP_GUID)
+   pveButton2 = getObjectFromGUID(soldierPVE_GUID)
+   pvpButton2  = getObjectFromGUID(soldierPVP_GUID)
+   pveButton3 = getObjectFromGUID(royaltyPVE_GUID)
+   pvpButton3  = getObjectFromGUID(royaltyPVP_GUID)
+   pveButton4 = getObjectFromGUID(heroPVE_GUID)
+   pvpButton4  = getObjectFromGUID(heroPVP_GUID)
+
+   focusButton = getObjectFromGUID(focusButton_GUID)
+
+   marketButton = getObjectFromGUID(marketMat_GUID)
+   marketDice = getObjectFromGUID(marketDice_GUID)
+
+   waSpawnButton = getObjectFromGUID(armorWeaponSpawnMat_GUID)
+   waDice = getObjectFromGUID("3b4e84")
+   itemSpawnButton = getObjectFromGUID(itemNPCSpawnMat_GUID)
+   itemNPCSpawnDice = {getObjectFromGUID("5ef62a"), getObjectFromGUID("5035fe"), getObjectFromGUID("3d8bbc")}
+
+   hitLocator = getObjectFromGUID(bodyHitLocation_GUID)
+
+   itemDice = getObjectFromGUID(itemNPCSpawnDice_GUID)
+
+   gridLocationDiceA = getObjectFromGUID("5ef62a")
+   gridLocationDice1 = getObjectFromGUID("5035fe")
+
+   goldTwo = getObjectFromGUID("b320ba")
+   goldOne = getObjectFromGUID("10d01e")
+   goldThree = getObjectFromGUID("10d01e"),getObjectFromGUID("b320ba")
+   goldFive = getObjectFromGUID("ab3b22")
+
+   deck = getObjectFromGUID(arenaCards_GUID)
+   slavePortrait = getObjectFromGUID("8240d7")
+   slaveGold = getObjectFromGUID("88ce62")
+
+   soldierPortrait = getObjectFromGUID("974c19")
+   royaltyPortrait = getObjectFromGUID("0205d5")
+   heroPortrait = getObjectFromGUID("f76730")
+
+   slaveMat = getObjectFromGUID("c495bd")
+   soldierMat = getObjectFromGUID("2894be")
+   royaltyMat = getObjectFromGUID("701575")
+   heroMat = getObjectFromGUID("7bf641")
+
+   --coordFinder = getObjectFromGUID("d1afe9")
+
+   blessings1 = getObjectFromGUID("265eb6")
+
+
+
+
+   slaveDicePVP = {getObjectFromGUID("0b2048"), getObjectFromGUID("b01dcd"), getObjectFromGUID("e8d49c")}
+   slaveDicePVP1 = getObjectFromGUID("0b2048")
+   slaveDicePVP2 = getObjectFromGUID("b01dcd")
+   slaveDicePVE = {getObjectFromGUID("e1e0fc"), getObjectFromGUID("b651b8"), getObjectFromGUID("0b2048"), getObjectFromGUID("b01dcd")}
+   slavePVEDice1 = getObjectFromGUID("e1e0fc")
+   slavePVEDice2 = getObjectFromGUID("b651b8")
+   slavePVEDice3 = getObjectFromGUID("0b2048")
+   slavePVEDice4 = getObjectFromGUID("b01dcd")
+
+
+
+
+   soldierDicePVP = {getObjectFromGUID("8aa38e"), getObjectFromGUID("439654"), getObjectFromGUID("e8d49c")}
+   soldierDicePVP1 = getObjectFromGUID("8aa38e")
+   soldierDicePVP2 = getObjectFromGUID("439654")
+   soldierDicePVE = {getObjectFromGUID("928771"), getObjectFromGUID("8c0a7a"), getObjectFromGUID("8aa38e"), getObjectFromGUID("439654")}
+   soldierPVEDice1 = getObjectFromGUID("928771")
+   soldierPVEDice2 = getObjectFromGUID("8c0a7a")
+   soldierPVEDice3 = getObjectFromGUID("8aa38e")
+   soldierPVEDice4 = getObjectFromGUID("439654")
+
+
+
+
+
+   royaltyDicePVP = {getObjectFromGUID("07d3dd"), getObjectFromGUID("b5580e"), getObjectFromGUID("e8d49c")}
+   royaltyDicePVP1 = getObjectFromGUID("07d3dd")
+   royaltyDicePVP2 = getObjectFromGUID("b5580e")
+   royaltyDicePVE = {getObjectFromGUID("07d3dd"), getObjectFromGUID("b5580e"), getObjectFromGUID("4eb3b1"), getObjectFromGUID("b91055")}
+   royaltyPVEDice1 = getObjectFromGUID("07d3dd")
+   royaltyPVEDice2 = getObjectFromGUID("b5580e")
+   royaltyPVEDice3 = getObjectFromGUID("4eb3b1")
+   royaltyPVEDice4 = getObjectFromGUID("b91055")
+
+
+
+
+   heroDicePVP = {getObjectFromGUID("282ec5"), getObjectFromGUID("7d9c80"), getObjectFromGUID("e8d49c")}
+   heroDicePVP1 = getObjectFromGUID("282ec5")
+   heroDicePVP2 = getObjectFromGUID("7d9c80")
+   heroDicePVE = {getObjectFromGUID("282ec5"), getObjectFromGUID("7d9c80"), getObjectFromGUID("0724bc"), getObjectFromGUID("84698a")}
+   heroPVEDice1 = getObjectFromGUID("282ec5")
+   heroPVEDice2 = getObjectFromGUID("7d9c80")
+   heroPVEDice3 = getObjectFromGUID("0724bc")
+   heroPVEDice4 = getObjectFromGUID("84698a")
+
+   animalInfoButton = getObjectFromGUID(animalInfoButton_GUID)
+   animalInfoButton.createButton(button_parametersAnimalInfo)
+
+   drawButton.createButton(button_parameters1)
+   goldTwoButton.createButton(button_parameters2)
+   drawButton2.createButton(button_parametersS)
+   goldTwoButton2.createButton(button_parametersS2)
+   drawButton3.createButton(button_parametersR)
+   goldTwoButton3.createButton(button_parametersR2)
+   drawButton4.createButton(button_parametersH)
+   goldTwoButton4.createButton(button_parametersH2)
+
+   pveButton.createButton(button_parametersPVE)
+   pvpButton.createButton(button_parametersPVP)
+   pveButton2.createButton(button_parametersPVE2)
+   pvpButton2.createButton(button_parametersPVP2)
+   pveButton3.createButton(button_parametersPVE3)
+   pvpButton3.createButton(button_parametersPVP3)
+   pveButton4.createButton(button_parametersPVE4)
+   pvpButton4.createButton(button_parametersPVP4)
+
+   focusButton.createButton(button_parametersFocusPVP)
+
+   marketButton.createButton(button_parametersMarket)
+
+   waSpawnButton.createButton(button_parametersArmorWeapon)
+   itemSpawnButton.createButton(button_parametersItem)
+
+
+   floorSpikes1 = getObjectFromGUID("516e2f")
+   floorSpikes2 = getObjectFromGUID("3b0708")
+   floorSpikes3 = getObjectFromGUID("dddb4b")
+   floorSpikes4 = getObjectFromGUID("a7fb3d")
+
+   bluePlayer = getObjectFromGUID("42b162")
+   greenPlayer = getObjectFromGUID("a6ec79")
+   yellowPlayer = getObjectFromGUID("f8ff8d")
+   redPlayer = getObjectFromGUID("a75591")
+
+--started moving
+
+
+
+--stopped moving
+
+
+
+
+   return draw,goldTwo
+   --[[ print('Onload!') --]]
+end
+
+
+function blessingsStuff()
+    buttonClickedItem()
+    buttonClickedGold()
+end
+
+function onPlayerTurnStart()
+   gold = "Gold", {153/255,153/255,0/255}
+    -- body...
+   printToAll("--------**Don't Forget to Draw 1 card or 2 Gold**--------", {255,255,255})
+
+
+end
+
+
+function onPlayerTurnEnd()
+    -- body...
+    displayCP()
+
+end
+
+
+
+
+
+function animalInfo()
+    bearyVal = counterBeary.getValue()
+    bearaVal = counterBeara.getValue()
+    cuddVal = counterCudd.getValue()
+    wulfVal = counterWulf.getValue()
+    ericVal = counterEric.getValue()
+    sandVal = counterSand.getValue()
+    roryVal = counterRory.getValue()
+    zekeVal = counterZeke.getValue()
+    tholoVal = counterTholo.getValue()
+    commVal = counterComm.getValue()
+    printToAll("-------------------------------------", {255,255,255})
+    printToAll("--------------NPC Health-------------", {255,255,255})
+    printToAll("-------------------------------------", {255,255,255})
+    printToAll("-------------Base-Animals------------", {255,255,255})
+
+
+--barry
+    if (bearyVal > 10) then
+        printToAll("[ERROR] Barry's health should not exceed 10: "..bearyVal, {255,0/255,0/255})
+end
+    if (bearyVal == 10) then
+        printToAll("Barry has full health: "..bearyVal, {0/255,204/255,0/255})
+end
+    if (bearyVal < 10) and (bearyVal >=7) then
+        printToAll("Barry has taken some damage: "..bearyVal, {102/255,255,102/255})
+end
+    if (bearyVal < 7) and (bearyVal >=4) then
+        printToAll("Barry is hurting: "..bearyVal, {255,128/255,0/255})
+end
+    if (bearyVal == 3) or (bearyVal == 2) then
+        printToAll("Barry is almost dead: "..bearyVal,  {128/255,128/255,128/255})
+end
+    if (bearyVal == 1) then
+        printToAll("Barry should be sniped: "..bearyVal,  {255,255,255})
+end
+    if (bearyVal <= 0) then
+        printToAll("Barry is dead...", {153/255,0/255,0/255})
+end
+--barbeara
+   if (bearaVal > 10) then
+      printToAll("[ERROR] Barbeara's health should not exceed 10: "..bearaVal, {255,0/255,0/255})
+end
+   if (bearaVal == 10) then
+      printToAll("Barbeara has full health: "..bearaVal, {0/255,204/255,0/255})
+end
+   if (bearaVal < 10) and (bearaVal >=7) then
+      printToAll("Barbeara has taken some damage: "..bearaVal, {102/255,255,102/255})
+end
+   if (bearaVal < 7) and (bearaVal >=4) then
+      printToAll("Barbeara is hurting: "..bearaVal, {255,128/255,0/255})
+end
+   if (bearaVal == 3) or (bearaVal == 2) then
+      printToAll("Barbeara is almost dead: "..bearaVal,  {128/255,128/255,128/255})
+end
+   if (bearaVal == 1) then
+      printToAll("Barbeara should be sniped: "..bearaVal,  {255,255,255})
+end
+   if (bearaVal <= 0) then
+      printToAll("Barbeara is dead...", {153/255,0/255,0/255})
+end
+--cuddles
+    if (cuddVal > 6) then
+      printToAll("[ERROR] Cuddles' health should not exceed 6: "..cuddVal, {255,0/255,0/255})
+end
+    if (cuddVal == 6) then
+      printToAll("Cuddles has full health: "..cuddVal, {0/255,204/255,0/255})
+end
+    if (cuddVal == 5) or (cuddVal == 4) then
+      printToAll("Cuddles has taken some damage: "..cuddVal, {102/255,255,102/255})
+end
+    if (cuddVal == 3) or (cuddVal == 2)  then
+      printToAll("Cuddles is hurting: "..cuddVal, {255,128/255,0/255})
+end
+    if (cuddVal == 1) then
+      printToAll("Cuddles should be sniped: "..cuddVal, {255,255,255})
+end
+    if (cuddVal <= 0) then
+      printToAll("Cuddles is dead...", {153/255,0/255,0/255})
+end
+--beowulf
+if (wulfVal > 6) then
+  printToAll("[ERROR] BeoWulf's health should not exceed 6: "..wulfVal, {255,0/255,0/255})
+end
+if (wulfVal == 6) then
+  printToAll("BeoWulf has full health: "..wulfVal, {0/255,204/255,0/255})
+end
+if (wulfVal == 5) or (wulfVal == 4) then
+  printToAll("BeoWulf has taken some damage: "..wulfVal, {102/255,255,102/255})
+end
+if (wulfVal == 3) or (wulfVal == 2)  then
+  printToAll("BeoWulf is hurting: "..wulfVal, {255,128/255,0/255})
+end
+if (wulfVal == 1) then
+  printToAll("BeoWulf should be sniped: "..wulfVal, {255,255,255})
+end
+if (wulfVal <= 0) then
+  printToAll("BeoWulf is dead...", {153/255,0/255,0/255})
+end
+--eric
+if (ericVal > 3) then
+    printToAll("[ERROR] Eric's health should not exceed 3: "..ericVal,{255,0/255,0/255})
+end
+if (ericVal == 3) then
+    printToAll("Eric has full health: "..ericVal, {0/255,204/255,0/255})
+end
+if (ericVal == 2)  then
+    printToAll("Eric is hurting: "..ericVal, {255,128/255,0/255})
+end
+if (ericVal == 1) then
+    printToAll("Eric should be sniped: "..ericVal, {255,255,255})
+end
+if (ericVal <= 0) then
+    printToAll("Eric is dead...", {153/255,0/255,0/255})
+end
+--sandy
+if (sandVal > 3) then
+    printToAll("[ERROR] Sandy's health should not exceed 3: "..sandVal, {255,0/255,0/255})
+end
+if (sandVal == 3) then
+    printToAll("Sandy has full health: "..sandVal, {0/255,204/255,0/255})
+end
+if (sandVal == 2)  then
+    printToAll("Sandy is hurting: "..sandVal, {255,128/255,0/255})
+end
+if (sandVal == 1) then
+    printToAll("Sandy should be sniped: "..sandVal, {255,255,255})
+end
+if (sandVal <= 0) then
+    printToAll("Sandy is dead...", {153/255,0/255,0/255})
+end
+printToAll("-------------------------------------", {255,255,255})
+printToAll("--Kill 4/6 Base Animals for Round 2--", {255,255,255})
+printToAll("-------------------------------------", {255,255,255})
+printToAll("----------------Lions----------------", {255,255,255})
+--rory
+    if (roryVal > 10) then
+        printToAll("[ERROR] Rory's health should not exceed 10: "..roryVal, {255,0/255,0/255})
+end
+    if (roryVal == 10) then
+        printToAll("Rory has full health: "..roryVal, {0/255,204/255,0/255})
+end
+    if (roryVal < 10) and (roryVal >=7) then
+        printToAll("Rory has taken some damage: "..roryVal, {102/255,255,102/255})
+end
+    if (roryVal < 7) and (roryVal >=4) then
+        printToAll("Rory is hurting: "..roryVal, {255,128/255,0/255})
+end
+    if (roryVal == 3) or (roryVal == 2) then
+        printToAll("Rory is almost dead: "..roryVal,  {128/255,128/255,128/255})
+end
+    if (roryVal == 1) then
+        printToAll("Rory should be sniped: "..roryVal,  {255,255,255})
+end
+    if (roryVal <= 0) then
+        printToAll("Rory is dead...", {153/255,0/255,0/255})
+end
+--zeke
+   if (zekeVal > 10) then
+      printToAll("[ERROR] Zeke's health should not exceed 10: "..zekeVal, {255,0/255,0/255})
+end
+   if (zekeVal == 10) then
+      printToAll("Zeke has full health: "..zekeVal, {0/255,204/255,0/255})
+end
+   if (zekeVal < 10) and (zekeVal >=7) then
+      printToAll("Zeke has taken some damage: "..zekeVal, {102/255,255,102/255})
+end
+   if (zekeVal < 7) and (zekeVal >=4) then
+      printToAll("Zeke is hurting: "..zekeVal, {255,128/255,0/255})
+end
+   if (zekeVal == 3) or (zekeVal == 2) then
+      printToAll("Zeke is almost dead: "..zekeVal,  {128/255,128/255,128/255})
+end
+   if (zekeVal == 1) then
+      printToAll("Zeke should be sniped: "..zekeVal,  {255,255,255})
+end
+   if (zekeVal <= 0) then
+      printToAll("Zeke is dead...", {153/255,0/255,0/255})
+end
+--tholo
+printToAll("----------Tholo/Commodus----------", {255,255,255})
+if (tholoVal > 20) then
+   printToAll("[ERROR] Tholo's health should not exceed 20: "..tholoVal, {255,0/255,0/255})
+end
+if (tholoVal == 20) then
+   printToAll("Tholo has full health: "..tholoVal, {0/255,204/255,0/255})
+end
+if (tholoVal < 20) and (tholoVal > 12) then
+   printToAll("Tholo has taken some damage: "..tholoVal, {102/255,255,102/255})
+end
+if (tholoVal <= 12) and (tholoVal >=4) then
+   printToAll("Tholo is hurting: "..tholoVal, {255,128/255,0/255})
+end
+if (tholoVal == 3) or (tholoVal == 2) then
+   printToAll("Tholo is almost dead: "..tholoVal,  {128/255,128/255,128/255})
+end
+if (tholoVal == 1) then
+   printToAll("Tholo should be sniped: "..tholoVal,  {255,255,255})
+end
+if (tholoVal <= 0) then
+   printToAll("Tholo is dead...thank the Gods!", {153/255,0/255,0/255})
+end
+--commodus
+if (commVal > 15) then
+   printToAll("[ERROR] Commodus' health should not exceed 15: "..commVal, {255,0/255,0/255})
+end
+if (commVal == 15) then
+   printToAll("Commodus has full health: "..commVal, {0/255,204/255,0/255})
+end
+if (commVal < 15) and (commVal >= 8) then
+   printToAll("Commodus has taken some damage: "..commVal, {102/255,255,102/255})
+end
+if (commVal < 8) and (commVal >= 4) then
+   printToAll("Commodus is hurting: "..commVal, {255,128/255,0/255})
+end
+if (commVal == 3) or (commVal == 2) then
+   printToAll("Commodus is almost dead: "..commVal,  {128/255,128/255,128/255})
+end
+if (commVal == 1) then
+   printToAll("Commodus should be sniped: "..commVal,  {255,255,255})
+end
+if (commVal <= 0) then
+   printToAll("Commodus is dead...thank the Gods!", {153/255,0/255,0/255})
+end
+
+printToAll("-------------------------------------", {255,255,255})
+
+end
+
+function displayCP()
+   val = countRed.getValue()
+   val2 = countBlue.getValue()
+   val3 = countGreen.getValue()
+   val4 = countYellow.getValue()
+
+   printToAll("-----------------------------", {255,255,255})
+   printToAll("-------Crowd Points-------", {255,255,255})
+   printToAll("-----------------------------", {255,255,255})
+   printToAll( "Red CP: "..val, {255,0/255,0/255})
+
+   printToAll( "Blue CP "..val2, {0/255,0/255,255})
+
+   printToAll( "Green CP: "..val3, {0/255,255,0/255})
+
+   printToAll( "Yellow CP: "..val4, {255,255,0/255})
+   printToAll("-----------------------------", {255,255,255})
+
+end
+
+
+
+
+function checkWaDice()
+   local val = waDice.getValue()
+   if (val == 2) or (val == 4) or (val == 5) then
+       printToAll("-----------",{255,255,255})
+       printToAll('+3 Gold',{195/255,185/255,30/255})
+   end
+   if (val == 1) then
+       printToAll("-----------",{255,255,255})
+       printToAll('-Roll for a Level 1-',{105/255,105/255,105/255})
+   end
+   if (val == 3) then
+       printToAll("-----------",{255,255,255})
+       printToAll('-Roll for a Level 2-',{85/255,107/255,47/255})
+   end
+   if (val == 6) then
+       printToAll("-----------",{255,255,255})
+       printToAll('-Roll for a Level 3-',{160/255,32/255,240/255})
+   end
+   return
+end
+
+function buttonClickedArmorWeapon()
+   local params = {}
+   params.flip = false
+   waDice.roll()
+   printToAll('Rolling for an Armor or Weapon spawn token...',{102,187,106})
+   local timerparameters = {
+     identifier = 'buttonclicketpvetimer',
+     function_name = 'buttonClickedWaDice',
+     function_owner = Global,
+     delay = 3.0,
+   }
+   Timer.create(timerparameters)
+   return
+end
+function buttonClickedWaDice()
+   checkWaDice()
+   printToAll("-----------",{255,255,255})
+end
+
+function gridLocationDice()
+    local params = {}
+
+    gridLocationDiceA.roll()
+    gridLocationDice1.roll()
+
+    printToAll('The NPC spawns at grid location:',{255,255,255})
+    local timerparameters = {
+      identifier = 'buttonclicketItemtimer',
+      function_name = 'checkLocationNPC',
+      function_owner = Global,
+      delay = 4.0,
+    }
+    Timer.create(timerparameters)
+    return
+ end
+ function checkLocationNPC()
+    checkItemDice1()
+    checkItemDice2()
+ end
+
+
+ function gridLocationDiceCommodus()
+     local params = {}
+
+     gridLocationDiceA.roll()
+     gridLocationDice1.roll()
+
+     printToAll('Commodus spawns at grid location:',{255,255,255})
+     local timerparameters = {
+       identifier = 'buttonclicketItemtimer',
+       function_name = 'checkLocationNPCommodus',
+       function_owner = Global,
+       delay = 4.0,
+     }
+     Timer.create(timerparameters)
+     return
+  end
+  function checkLocationNPCommodus()
+     checkItemDice1()
+     checkItemDice2()
+     locationHitCommodus()
+  end
+
+  function locationHitCommodus()
+  hitLocator.roll()
+  local timerparameters = {
+   identifier = 'buttonclicketpvptimer',
+   function_name = 'locationCommodusHit',
+   function_owner = Global,
+   delay = 3.0,
+  }
+  Timer.create(timerparameters)
+  function locationCommodusHit()
+
+    printToAll('All players are hit with:',{255,204/255,153/255})
+    printToAll('2 DMG',{255,0/255,0/255})
+    printToAll('to their:',{255,204/255,153/255})
+    checkDiceHitLocation()
+    printToAll('(shields still absorb, no blocking)',{255,204/255,153/255})
+    end
+    return
+  end
+
+
+function checkItemDice1()
+
+    local val = gridLocationDiceA.getValue()
+
+    local string = {}
+    string[1] = 'C'
+    string[2] = 'E'
+    string[3] = 'A'
+    string[4] = 'B'
+    string[5] = 'L'
+    string[6] = 'M'
+    string[7] = 'K'
+    string[8] = 'H'
+    string[9] = 'J'
+    string[10] = 'I'
+    string[11] = 'F'
+    string[12] = 'D'
+
+
+   printToAll("-----------",{255,255,255})
+   printToAll(string[val],{50/255,205/255,50/255})
+
+end
+
+function checkItemDice2()
+  local val = gridLocationDice1.getValue()
+
+   printToAll("-----------",{255,255,255})
+   printToAll(val,{61/255,90/255,254/255})
+   printToAll("-----------",{255,255,255})
+
+end
+function checkItemDice3()
+   local val = itemDice.getValue()
+   if (val == 1) then
+
+    printToAll('Health Elixir Token',{178/255,23/255,242/255})
+    printToAll("-----------",{255,255,255})
+   end
+   if (val == 2) then
+
+    printToAll('Armor Scraps Token',{78/255,52/255,46/255})
+    printToAll("-----------",{255,255,255})
+   end
+   if (val == 3) then
+
+    printToAll('Armor Spawn Token',{33/255,33/255,33/255})
+    printToAll("-----------",{255,255,255})
+   end
+   if (val == 4) then
+
+    printToAll('Weapon Spawn Token',{51/255,71/255,79/255})
+    printToAll("-----------",{255,255,255})
+   end
+end
+
+function buttonClickedItem()
+   local params = {}
+   params.flip = false
+
+   gridLocationDiceA.roll()
+   gridLocationDice1.roll()
+   itemDice.roll()
+
+   printToAll('Spawning an item into play...',{255,255,255})
+   local timerparameters = {
+     identifier = 'buttonclicketItemtimer',
+     function_name = 'buttonClickedItemDice1',
+     function_owner = Global,
+     delay = 4.0,
+   }
+   Timer.create(timerparameters)
+   return
+end
+function buttonClickedItemDice1()
+   checkItemDice1()
+   checkItemDice2()
+   checkItemDice3()
+end
+
+
+
+function checkMarketDice()
+   local val = marketDice.getValue()
+   printToAll(marketDice.getValue(),{255,255,255})
+   return
+end
+function buttonClickedMarket()
+   local params = {}
+   params.flip = false
+
+   printToAll('Rolling in market...',{178/255,34/255,34/255})
+   marketDice.roll()
+   printToAll('You have unlocked slot: ',{255,255,255})
+   local timerparameters = {
+     identifier = 'buttonclicketpvetimer',
+     function_name = 'buttonClickedMarketDice',
+     function_owner = Global,
+     delay = 2.5,
+   }
+   Timer.create(timerparameters)
+   return
+end
+function buttonClickedMarketDice()
+   checkMarketDice()
+   printToAll("-----------",{178/255,34/255,34/255})
+end
+
+
+
+
+
+
+
+function buttonClickedCard()
+   local params = {}
+   local position = {0.5, 1, 0.5}
+
+   -- "obj" is the object, cards is the "card"
+   local bounds = slavePortrait.getBounds()
+   local targetPos = bounds.center
+   targetPos.y = targetPos.y + bounds.size.y/2 + 0.5 -- turn the number up if you want more margin
+
+   params.flip = true
+   params.rotation = {0, 270, 0}
+   params.position = targetPos
+
+
+   deck.shuffle()
+   printToAll("Shuffled...",{255,255,255})
+   --deck.takeObject(params)
+   local card = deck.takeObject(params)
+
+
+
+
+   --print('Drawn GUID: ' .. card.getGUID())
+   --printToAll(responses[card.getGUID()] or 'No response defined')
+
+   --printToAll(responses[card.getGUID()].msg)
+   --card.highlightOn(responses[card.getGUID()].color, 5)
+
+
+   printToAll('The Slave',{1,1,51/255})
+   printToAll('drew a card',{255,255,255})
+   local data = responses[card.getGUID()]
+   if data ~= nil then
+       local color = colors[data.group]
+       if color ~= nil then
+           printToAll(data.msg, data.textColor)
+           card.highlightOn(color)
+           if data.fcn ~= nil then
+               data.fcn()
+           end
+       end
+   end
+
+   return
+end
+
+function threeGold()
+if (player == yellow) then
+    oneGold()
+    buttonClickedGold()
+end
+if (player == red) then
+    oneGold()
+end
+if (player == green) then
+    oneGold()
+end
+if (player == blue) then
+    oneGold()
+end
+    return
+end
+function onegold()
+    local params = {}
+    local position = {0.5, 1, 0.5}
+
+    -- "obj" is the object, cards is the "card"
+    local bounds = slavePortrait.getBounds()
+    local targetPos = bounds.center
+    targetPos.y = targetPos.y + bounds.size.y/2 + 0.5 -- turn the number up if you want more margin
+
+    params.flip = false
+    params.position = targetPos
+    goldOne.takeObject(params)
+    return
+end
+function buttonClickedGold()
+   local params = {}
+   local position = {0.5, 1, 0.5}
+
+   -- "obj" is the object, cards is the "card"
+   local bounds = slavePortrait.getBounds()
+   local targetPos = bounds.center
+   targetPos.y = targetPos.y + bounds.size.y/2 + 0.5 -- turn the number up if you want more margin
+
+   params.flip = false
+   params.position = targetPos
+
+   goldTwo.takeObject(params)
+   printToAll('The Slave',{255,255,51/255})
+   printToAll('gained 2 gold',{255,255,255})
+
+   return
+end
+
+function buttonClickedCard2()
+   local params = {}
+   local position = {0.5, 1, 0.5}
+
+   -- "obj" is the object, cards is the "card"
+   local bounds = soldierPortrait.getBounds()
+   local targetPos = bounds.center
+   targetPos.y = targetPos.y + bounds.size.y/2 + 0.5 -- turn the number up if you want more margin
+
+
+   params.flip = true
+   params.position = targetPos
+   deck.shuffle()
+   printToAll("Shuffled...",{255,255,255})
+   --deck.takeObject(params)
+   local card = deck.takeObject(params)
+
+
+
+
+   --print('Drawn GUID: ' .. card.getGUID())
+   --printToAll(responses[card.getGUID()] or 'No response defined')
+
+   --printToAll(responses[card.getGUID()].msg)
+   --card.highlightOn(responses[card.getGUID()].color, 5)
+
+
+   printToAll('The Soldier',{255,0,0})
+   printToAll('drew a card',{255,255,255})
+   local data = responses[card.getGUID()]
+   if data ~= nil then
+       local color = colors[data.group]
+       if color ~= nil then
+           printToAll(data.msg, data.textColor)
+           card.highlightOn(color)
+           if data.fcn ~= nil then
+               data.fcn()
+           end
+       end
+   end
+
+   return
+end
+
+function buttonClickedGold2()
+   local params = {}
+   local position = {0.5, 1, 0.5}
+
+   -- "obj" is the object, cards is the "card"
+   local bounds = soldierPortrait.getBounds()
+   local targetPos = bounds.center
+   targetPos.y = targetPos.y + bounds.size.y/2 + 0.5 -- turn the number up if you want more margin
+
+   params.flip = false
+   params.position = targetPos
+   goldTwo.takeObject(params)
+   printToAll('The Soldier',{255,0,0})
+   printToAll('gained 2 gold',{255,255,255})
+
+   return
+end
+function buttonClickedCard3()
+   local params = {}
+
+   -- "obj" is the object, cards is the "card"
+   local bounds = royaltyPortrait.getBounds()
+   local targetPos = bounds.center
+   targetPos.y = targetPos.y + bounds.size.y/2 + 0.5 -- turn the number up if you want more margin
+
+
+   params.flip = true
+   params.rotation = {0, 90, 0}
+   params.position = targetPos
+   deck.shuffle()
+   printToAll("Shuffled...",{255,255,255})
+   --deck.takeObject(params)
+   local card = deck.takeObject(params)
+
+
+
+
+   --print('Drawn GUID: ' .. card.getGUID())
+   --printToAll(responses[card.getGUID()] or 'No response defined')
+
+   --printToAll(responses[card.getGUID()].msg)
+   --card.highlightOn(responses[card.getGUID()].color, 5)
+
+
+   printToAll('The Royalty',{51/255,51/255,255})
+   printToAll('drew a card',{255,255,255})
+   local data = responses[card.getGUID()]
+   if data ~= nil then
+       local color = colors[data.group]
+       if color ~= nil then
+           printToAll(data.msg, data.textColor)
+           card.highlightOn(color)
+           if data.fcn ~= nil then
+               data.fcn()
+           end
+       end
+   end
+
+   return
+end
+
+function buttonClickedGold3()
+   local params = {}
+   local position = {0.5, 1, 0.5}
+
+   -- "obj" is the object, cards is the "card"
+   local bounds = royaltyPortrait.getBounds()
+   local targetPos = bounds.center
+   targetPos.y = targetPos.y + bounds.size.y/2 + 0.5 -- turn the number up if you want more margin
+
+   params.flip = false
+   params.position = targetPos
+   goldTwo.takeObject(params)
+   printToAll('The Royalty',{0,0,255})
+   printToAll('gained 2 gold',{255,255,255})
+
+   return
+end
+function buttonClickedCard4()
+   local params = {}
+
+   -- "obj" is the object, cards is the "card"
+   local bounds = heroPortrait.getBounds()
+   local targetPos = bounds.center
+   targetPos.y = targetPos.y + bounds.size.y/2 + 0.5 -- turn the number up if you want more margin
+
+
+   params.flip = true
+   params.rotation = {0, 360, 0}
+   params.position = targetPos
+   deck.shuffle()
+   printToAll("Shuffled...",{255,255,255})
+   --deck.takeObject(params)
+   local card = deck.takeObject(params)
+
+   --print('Drawn GUID: ' .. card.getGUID())
+   --printToAll(responses[card.getGUID()] or 'No response defined')
+
+   --printToAll(responses[card.getGUID()].msg)
+   --card.highlightOn(responses[card.getGUID()].color, 5)
+
+   printToAll('The Hero',{0,204/255,0})
+   printToAll('drew a card',{255,255,255})
+   local data = responses[card.getGUID()]
+   if data ~= nil then
+       local color = colors[data.group]
+       if color ~= nil then
+           printToAll(data.msg, data.textColor)
+           card.highlightOn(color)
+           if data.fcn ~= nil then
+               data.fcn()
+           end
+       end
+   end
+   return
+end
+
+function buttonClickedGold4()
+   local params = {}
+   local position = {0.5, 1, 0.5}
+
+   -- "obj" is the object, cards is the "card"
+   local bounds = heroPortrait.getBounds()
+   local targetPos = bounds.center
+   targetPos.y = targetPos.y + bounds.size.y/2 + 0.5 -- turn the number up if you want more margin
+
+   params.flip = false
+   params.position = targetPos
+   goldTwo.takeObject(params)
+   printToAll('The Hero',{0,204/255,0})
+   printToAll('gained 2 gold',{255,255,255})
+
+   return
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+function checkDiceHitsSlavePVE1()
+   local val = slavePVEDice1.getValue()
+   if (val == 2) or (val == 4) or (val == 5) then
+       printToAll('- Hit -',{255,0,0})
+   end
+
+   if (val == 1) or (val == 3) or (val == 6) then
+       printToAll('- Miss -',{255,255,255})
+   end
+
+   return
+end
+function checkDiceHitsSlavePVE2()
+   local val = slavePVEDice2.getValue()
+   if (val == 2) or (val == 4) or (val == 5) then
+       printToAll('- Hit -',{255,0,0})
+   end
+
+   if (val == 1) or (val == 3) or (val == 6) then
+       printToAll('- Miss -',{255,255,255})
+   end
+
+   return
+end
+function checkDiceHitsSlavePVE3()
+   local val = slavePVEDice3.getValue()
+   if (val == 2) or (val == 4) or (val == 5) then
+       printToAll('- Hit -',{255,0,0})
+   end
+
+   if (val == 1) or (val == 3) or (val == 6) then
+       printToAll('- Miss -',{255,255,255})
+   end
+
+   return
+end
+function checkDiceHitsSlavePVE4()
+   local val = slavePVEDice4.getValue()
+   if (val == 2) or (val == 4) or (val == 5) then
+       printToAll('- Hit -',{255,0,0})
+   end
+
+   if (val == 1) or (val == 3) or (val == 6) then
+       printToAll('- Miss -',{255,255,255})
+   end
+
+   return
+end
+function buttonClickedPVE()
+  local params = {}
+  local position = {0.5, 1, 0.5}
+  params.flip = false
+  params.position = slaveMat.getPosition()
+  for k,slaveDice in pairs(slaveDicePVE) do
+      slaveDice.roll()
+  end
+  printToAll('The Slave is rolling for PVE...',{255,255,255})
+  local timerparameters = {
+    identifier = 'buttonclicketpvetimer',
+    function_name = 'buttonClickedPVEpt2',
+    function_owner = Global,
+    delay = 3.0,
+  }
+  Timer.create(timerparameters)
+  return
+end
+function buttonClickedPVEpt2()
+  checkDiceHitsSlavePVE1()
+  checkDiceHitsSlavePVE2()
+  checkDiceHitsSlavePVE3()
+  checkDiceHitsSlavePVE4()
+  printToAll("-----------",{255,255,255})
+end
+
+
+function checkDiceHitsSoldierPVE1()
+   local val = soldierPVEDice1.getValue()
+   if (val == 2) or (val == 4) or (val == 5) then
+       printToAll('- Hit -',{255,0,0})
+   end
+
+   if (val == 1) or (val == 3) or (val == 6) then
+       printToAll('- Miss -',{255,255,255})
+   end
+
+   return
+end
+function checkDiceHitsSoldierPVE2()
+   local val = soldierPVEDice2.getValue()
+   if (val == 2) or (val == 4) or (val == 5) then
+       printToAll('- Hit -',{255,0,0})
+   end
+
+   if (val == 1) or (val == 3) or (val == 6) then
+       printToAll('- Miss -',{255,255,255})
+   end
+
+   return
+end
+function checkDiceHitsSoldierPVE3()
+   local val = soldierPVEDice3.getValue()
+   if (val == 2) or (val == 4) or (val == 5) then
+       printToAll('- Hit -',{255,0,0})
+   end
+
+   if (val == 1) or (val == 3) or (val == 6) then
+       printToAll('- Miss -',{255,255,255})
+   end
+
+   return
+end
+function checkDiceHitsSoldierPVE4()
+   local val = soldierPVEDice4.getValue()
+   if (val == 2) or (val == 4) or (val == 5) then
+       printToAll('- Hit -',{255,0,0})
+   end
+
+   if (val == 1) or (val == 3) or (val == 6) then
+       printToAll('- Miss -',{255,255,255})
+   end
+
+   return
+end
+function buttonClickedPVE2()
+   local params = {}
+   local position = {0.5, 1, 0.5}
+   params.flip = false
+   params.position = soldierMat.getPosition()
+
+   for k,soldierDice in pairs(soldierDicePVE) do
+
+       soldierDice.roll()
+   end
+   printToAll('The Soldier is rolling for PVE...',{255,255,255})
+   local timerparameters = {
+     identifier = 'buttonclicketpvetimer',
+     function_name = 'buttonClickedPVEpt22',
+     function_owner = Global,
+     delay = 3.0,
+   }
+   Timer.create(timerparameters)
+   return
+end
+function buttonClickedPVEpt22()
+   checkDiceHitsSoldierPVE1()
+   checkDiceHitsSoldierPVE2()
+   checkDiceHitsSoldierPVE3()
+   checkDiceHitsSoldierPVE4()
+   printToAll("-----------", {255,255,255})
+end
+
+
+
+
+function checkDiceHitsRoyaltyPVE1()
+    local val = royaltyPVEDice1.getValue()
+    if (val == 2) or (val == 4) or (val == 5) then
+        printToAll('- Hit -',{255,0,0})
+    end
+
+    if (val == 1) or (val == 3) or (val == 6) then
+        printToAll('- Miss -',{255,255,255})
+    end
+
+    return
+end
+function checkDiceHitsRoyaltyPVE2()
+    local val = royaltyPVEDice2.getValue()
+    if (val == 2) or (val == 4) or (val == 5) then
+        printToAll('- Hit -',{255,0,0})
+    end
+
+    if (val == 1) or (val == 3) or (val == 6) then
+        printToAll('- Miss -',{255,255,255})
+    end
+
+    return
+end
+function checkDiceHitsRoyaltyPVE3()
+    local val = royaltyPVEDice3.getValue()
+    if (val == 2) or (val == 4) or (val == 5) then
+        printToAll('- Hit -',{255,0,0})
+    end
+
+    if (val == 1) or (val == 3) or (val == 6) then
+        printToAll('- Miss -',{255,255,255})
+    end
+
+    return
+end
+function checkDiceHitsRoyaltyPVE4()
+    local val = royaltyPVEDice4.getValue()
+    if (val == 2) or (val == 4) or (val == 5) then
+        printToAll('- Hit -',{255,0,0})
+    end
+
+    if (val == 1) or (val == 3) or (val == 6) then
+        printToAll('- Miss -',{255,255,255})
+    end
+
+    return
+end
+function buttonClickedPVE3()
+   local params = {}
+   local position = {0.5, 1, 0.5}
+   params.flip = false
+   params.position = royaltyMat.getPosition()
+
+   for k,royaltyDice in pairs(royaltyDicePVE) do
+
+       royaltyDice.roll()
+   end
+   printToAll('The Royalty is rolling for PVE...',{255,255,255})
+   local timerparameters = {
+     identifier = 'buttonclicketpvetimer',
+     function_name = 'buttonClickedPVEpt2R',
+     function_owner = Global,
+     delay = 3.0,
+   }
+   Timer.create(timerparameters)
+   return
+end
+function buttonClickedPVEpt2R()
+   checkDiceHitsRoyaltyPVE1()
+   checkDiceHitsRoyaltyPVE2()
+   checkDiceHitsRoyaltyPVE3()
+   checkDiceHitsRoyaltyPVE4()
+   printToAll("-----------",{255,255,255})
+end
+
+
+
+function checkDiceHitsHeroPVE1()
+    local val = heroPVEDice1.getValue()
+    if (val == 2) or (val == 4) or (val == 5) then
+        printToAll('- Hit -',{255,0,0})
+    end
+
+    if (val == 1) or (val == 3) or (val == 6) then
+        printToAll('- Miss -',{255,255,255})
+    end
+
+    return
+end
+function checkDiceHitsHeroPVE2()
+    local val = heroPVEDice2.getValue()
+    if (val == 2) or (val == 4) or (val == 5) then
+        printToAll('- Hit -',{255,0,0})
+    end
+
+    if (val == 1) or (val == 3) or (val == 6) then
+        printToAll('- Miss -',{255,255,255})
+    end
+
+    return
+end
+function checkDiceHitsHeroPVE3()
+    local val = heroPVEDice3.getValue()
+    if (val == 2) or (val == 4) or (val == 5) then
+        printToAll('- Hit -',{255,0,0})
+    end
+
+    if (val == 1) or (val == 3) or (val == 6) then
+        printToAll('- Miss -',{255,255,255})
+    end
+
+    return
+end
+function checkDiceHitsHeroPVE4()
+    local val = heroPVEDice4.getValue()
+    if (val == 2) or (val == 4) or (val == 5) then
+        printToAll('- Hit -',{255,0,0})
+    end
+
+    if (val == 1) or (val == 3) or (val == 6) then
+        printToAll('- Miss -',{255,255,255})
+    end
+
+    return
+end
+function buttonClickedPVE4()
+   local params = {}
+   local position = {0.5, 1, 0.5}
+   params.flip = false
+   params.position = heroMat.getPosition()
+
+   for k,heroDice in pairs(heroDicePVE) do
+
+       heroDice.roll()
+   end
+   printToAll('The Hero is rolling for PVE...',{255,255,255})
+   local timerparameters = {
+     identifier = 'buttonclicketpvetimer',
+     function_name = 'buttonClickedPVEpt2H',
+     function_owner = Global,
+     delay = 3.0,
+   }
+   Timer.create(timerparameters)
+   return
+end
+function buttonClickedPVEpt2H()
+   checkDiceHitsHeroPVE1()
+   checkDiceHitsHeroPVE2()
+   checkDiceHitsHeroPVE3()
+   checkDiceHitsHeroPVE4()
+   printToAll("-----------",{255,255,255})
+end
+
+
+
+
+
+
+
+
+function checkDiceHitLocation()
+	local val = hitLocator.getValue()
+	if (val == 1) then
+        printToAll('Chest',{255,222/255,7/255})
+	end
+	if (val == 2) then
+        printToAll('Head',{255,0,0})
+	end
+	if (val == 3) then
+    	printToAll('Left Leg',{0,204/255,102/255})
+	end
+	if (val == 4) then
+        printToAll('Right Leg',{0,204/255,102/255})
+	end
+	if (val == 5) then
+        printToAll('Left Arm',{178/255,102/255,255})
+	end
+	if (val == 6) then
+        printToAll('Right Arm',{178/255,102/255,255})
+	end
+
+	return
+end
+
+function buttonClickedFocus()
+	local params = {}
+	local position = {0.5, 1, 0.5}
+	params.flip = false
+	params.position = focusButton.getPosition()
+    printToAll('-------------',{153/255,204/255,255})
+    printToAll('Focus Attack!',{255,255,255})
+    printToAll('-------------',{153/255,204/255,255})
+
+    hitLocator.roll()
+
+   local timerparameters = {
+     identifier = 'buttonclicketpvptimer',
+     function_name = 'buttonClickedFocusPt2A',
+     function_owner = Global,
+     delay = 3.0,
+   }
+   Timer.create(timerparameters)
+   function buttonClickedFocusPt2A()
+      hitLocator.roll()
+      printToAll('Hit Location #1:',{255,204/255,153/255})
+      checkDiceHitLocation()
+      end
+
+      hitLocator.roll()
+
+   local timerparameters2 = {
+     identifier = 'buttonclicketpvptimer2',
+     function_name = 'buttonClickedFocusPt2B',
+     function_owner = Global,
+     delay = 6.0,
+   }
+   Timer.create(timerparameters2)
+   function buttonClickedFocusPt2B()
+
+      hitLocator.roll()
+      printToAll('Hit Location #2:',{255,204/255,153/255})
+      checkDiceHitLocation()
+      end
+
+      hitLocator.roll()
+
+   local timerparameters3 = {
+     identifier = 'buttonclicketpvptimer3',
+     function_name = 'buttonClickedFocusPt2C',
+     function_owner = Global,
+     delay = 9.0,
+   }
+   Timer.create(timerparameters3)
+   function buttonClickedFocusPt2C()
+      printToAll('Hit Location #3:',{255,204/255,153/255})
+      checkDiceHitLocation()
+      printToAll('-------------',{153/255,204/255,255})
+      printToAll('Choose 1 location...',{153/255,204/255,255})
+      end
+   return
+   end
+
+
+
+
+function checkDiceHitsSlavePVP1()
+   local val = slaveDicePVP1.getValue()
+   if (val == 2) or (val == 4) or (val == 5) then
+       printToAll('- Hit -',{255,0,0})
+   end
+
+   if (val == 1) or (val == 3) or (val == 6) then
+       printToAll('- Miss -',{255,255,255})
+   end
+
+   return
+end
+function checkDiceHitsSlavePVP2()
+   local val = slaveDicePVP2.getValue()
+   if (val == 2) or (val == 4) or (val == 5) then
+       printToAll('- Hit -',{255,0,0})
+   end
+
+   if (val == 1) or (val == 3) or (val == 6) then
+       printToAll('- Miss -',{255,255,255})
+   end
+
+   return
+   end
+function buttonClickedPVP()
+   local params = {}
+   local position = {0.5, 1, 0.5}
+   params.flip = false
+   params.position = slaveMat.getPosition()
+
+   for k,slaveDice in pairs(slaveDicePVP) do
+
+       slaveDice.roll()
+       hitLocator.roll()
+   end
+   printToAll('The Slave is rolling for PVP...',{255,255,255})
+   local timerparameters = {
+     identifier = 'buttonclicketpvptimer',
+     function_name = 'buttonClickedPVPpt2',
+     function_owner = Global,
+     delay = 3.0,
+   }
+   Timer.create(timerparameters)
+   return
+   end
+function buttonClickedPVPpt2()
+   checkDiceHitsSlavePVP1()
+   checkDiceHitsSlavePVP2()
+   checkDiceHitLocation()
+   printToAll("-----------",{255,255,255})
+   end
+
+
+
+
+   function checkDiceHitsSoldierPVP1()
+       local val = soldierDicePVP1.getValue()
+       if (val == 2) or (val == 4) or (val == 5) then
+           printToAll('- Hit -',{255,0,0})
+       end
+
+       if (val == 1) or (val == 3) or (val == 6) then
+           printToAll('- Miss -',{255,255,255})
+       end
+
+       return
+   end
+   function checkDiceHitsSoldierPVP2()
+       local val = soldierDicePVP2.getValue()
+       if (val == 2) or (val == 4) or (val == 5) then
+           printToAll('- Hit -',{255,0,0})
+       end
+
+       if (val == 1) or (val == 3) or (val == 6) then
+           printToAll('- Miss -',{255,255,255})
+       end
+
+       return
+       end
+   function buttonClickedPVP2()
+       local params = {}
+       local position = {0.5, 1, 0.5}
+       params.flip = false
+       params.position = soldierMat.getPosition()
+
+       for k,soldierDice in pairs(soldierDicePVP) do
+
+           soldierDice.roll()
+           hitLocator.roll()
+       end
+       printToAll('The Soldier is rolling for PVP...',{255,255,255})
+       local timerparameters = {
+         identifier = 'buttonclicketpvptimer',
+         function_name = 'buttonClickedPVPpt2S',
+         function_owner = Global,
+         delay = 3.0,
+       }
+       Timer.create(timerparameters)
+       return
+       end
+   function buttonClickedPVPpt2S()
+       checkDiceHitsSoldierPVP1()
+       checkDiceHitsSoldierPVP2()
+       checkDiceHitLocation()
+       printToAll("-----------",{255,255,255})
+       end
+
+
+
+
+
+
+
+       function checkDiceHitsRoyaltyPVP1()
+           local val = royaltyDicePVP1.getValue()
+           if (val == 2) or (val == 4) or (val == 5) then
+               printToAll('- Hit -',{255,0,0})
+           end
+
+           if (val == 1) or (val == 3) or (val == 6) then
+               printToAll('- Miss -',{255,255,255})
+           end
+
+           return
+       end
+       function checkDiceHitsRoyaltyPVP2()
+           local val = royaltyDicePVP2.getValue()
+           if (val == 2) or (val == 4) or (val == 5) then
+               printToAll('- Hit -',{255,0,0})
+           end
+
+           if (val == 1) or (val == 3) or (val == 6) then
+               printToAll('- Miss -',{255,255,255})
+           end
+
+           return
+           end
+       function buttonClickedPVP3()
+           local params = {}
+           local position = {0.5, 1, 0.5}
+           params.flip = false
+           params.position = royaltyMat.getPosition()
+
+           for k,royaltyDice in pairs(royaltyDicePVP) do
+
+               royaltyDice.roll()
+               hitLocator.roll()
+           end
+           printToAll('The Royalty is rolling for PVP...',{255,255,255})
+           local timerparameters = {
+             identifier = 'buttonclicketpvptimer',
+             function_name = 'buttonClickedPVPpt2R',
+             function_owner = Global,
+             delay = 3.0,
+           }
+           Timer.create(timerparameters)
+           return
+           end
+       function buttonClickedPVPpt2R()
+           checkDiceHitsRoyaltyPVP1()
+           checkDiceHitsRoyaltyPVP2()
+           checkDiceHitLocation()
+           printToAll("-----------",{255,255,255})
+           end
+
+
+           function checkDiceHitsHeroPVP1()
+               local val = heroDicePVP1.getValue()
+               if (val == 2) or (val == 4) or (val == 5) then
+                   printToAll('- Hit -',{255,0,0})
+               end
+
+               if (val == 1) or (val == 3) or (val == 6) then
+                   printToAll('- Miss -',{255,255,255})
+               end
+
+               return
+           end
+           function checkDiceHitsHeroPVP2()
+               local val = heroDicePVP2.getValue()
+               if (val == 2) or (val == 4) or (val == 5) then
+                   printToAll('- Hit -',{255,0,0})
+               end
+
+               if (val == 1) or (val == 3) or (val == 6) then
+                   printToAll('- Miss -',{255,255,255})
+               end
+
+               return
+               end
+           function buttonClickedPVP4()
+               local params = {}
+               local position = {0.5, 1, 0.5}
+               params.flip = false
+               params.position = heroMat.getPosition()
+
+               for k,heroDice in pairs(heroDicePVP) do
+
+                   heroDice.roll()
+                   hitLocator.roll()
+               end
+               printToAll('The Hero is rolling for PVP...',{255,255,255})
+               local timerparameters = {
+                 identifier = 'buttonclicketpvptimer',
+                 function_name = 'buttonClickedPVPpt2H',
+                 function_owner = Global,
+                 delay = 3.0,
+               }
+               Timer.create(timerparameters)
+               return
+               end
+
+           function buttonClickedPVPpt2H()
+               checkDiceHitsHeroPVP1()
+               checkDiceHitsHeroPVP2()
+               checkDiceHitLocation()
+               printToAll("-----------",{255,255,255})
+           end
+
+           function dummy() end
+
+           colors = {
+               ['Bad'] = {255, 0, 0},
+               ['Good'] = {0, 255, 0},
+               ['Royal'] = {0 ,76/255 ,153/255},
+               ['grey'] = {160/255,160/255,160/255}
+
+               }
+
+           responses = {
+
+               --lion card1
+               ['b90aaf'] = { msg = 'A gate raises and RORY the lion appears!', group = 'Bad', textColor = {255, 128, 0}, fcn = gridLocationDice  },
+
+               --lion card2
+               ['1cd253'] = { msg = 'A gate raises and a ZEKE the lion appears!', group = 'Bad', textColor = {255, 128, 0}, fcn = gridLocationDice  },
+
+               --Tholo card
+               ['60a006'] = { msg =
+
+    [[The crowd chants....
+
+    tholo....Tholo....THOLO!!!!
+
+    ]], group = 'Bad', textColor = {51/255, 153/255, 255}, fcn = gridLocationDice  },
+
+               --Commodus card
+               ['fc7908'] = { msg =
+               [[
+    Silence comes over the crowd...
+    Commodus has entered the arena.
+
+    The Market is officially CLOSED
+    for any means as long as Commodus
+    is in play...
+
+    Commodus enters agro on Yellow
+    (then Red, Green, and lastly Blue)
+    ]],
+               group = 'Bad', textColor = {160/255, 160/255, 160/255}, fcn = gridLocationDiceCommodus  },
+
+
+
+               --primary weapon falls apart
+               ['dec541'] = { msg = 'NOOO! Your primary weapon has fallen apart', group = 'Bad', textColor = {51/255, 153/255, 255}},
+
+               --secondary weapon falls apart
+               ['959a1c'] = { msg = 'NOOO! Your secondary weapon has fallen apart', group = 'Bad', textColor = {51/255, 153/255, 255}},
+
+               --lose 2 gold
+               ['7498e3'] = { msg = 'You lose 2 gold...', group = 'Bad', textColor = {255,0,0}},
+
+
+               --helmet armor falls apart
+               ['5af566'] = { msg = 'Your favorite helm just fell apart...', group = 'Bad', textColor = {51/255, 153/255, 255}},
+               --chest armor falls apart
+               ['ea4988'] = { msg = 'Your chest armor was cheaply made. It falls apart...', group = 'Bad', textColor = {51/255, 153/255, 255}},
+
+               --right arm armor falls apart
+               ['c7de67'] = { msg = 'Your right arm armor was cheaply made. It falls apart...', group = 'Bad', textColor = {51/255, 153/255, 255}},
+               --left arm armor falls apart
+               ['44e7cf'] = { msg = 'Your left arm armor was cheaply made. It falls apart...', group = 'Bad', textColor = {51/255, 153/255, 255}},
+
+               --right leg armor falls apart
+               ['f3f792'] = { msg = 'Your right leg armor was cheaply made. It falls apart...', group = 'Bad', textColor = {51/255, 153/255, 255}},
+               --left leg armor falls apart
+               ['44e7cf'] = { msg = 'Your left leg armor was cheaply made. It falls apart...', group = 'Bad', textColor = {51/255, 153/255, 255}},
+
+               --lashings
+               ['876d1c'] = { msg = 'LASHINGS! -1 HP to Chest and LOSE TURN', group = 'Bad', textColor = {255, 0/255, 0}},
+
+               --barbeara charges
+               ['7f488a'] = { msg = 'Barbeara charges! She agros to you and gains +1 movement. Breaks tame.', group = 'Bad', textColor = {255, 0/255, 0}},
+
+               --barry charges
+               ['ab6212'] = { msg = 'Barry charges! She agros to you and gains +1 movement. Breaks tame.', group = 'Bad', textColor = {255, 0/255, 0}},
+
+               --crowd restless
+               ['b598f2'] = { msg =
+    [[
+    The crowd grows restless!!!
+
+    Attack at least 1 time each turn
+    or the crowd will chuck a stone at
+    you dealing 2 dmg randomly.
+
+    Pass to next player after 3 turns.
+    ]], group = 'Bad', textColor = {0, 204/255, 204/255}},
+
+                --Telemachus
+                ['4d39da'] = { msg =
+    [[
+    Telemachus has interrupted the fight!
+
+    Lose all attacks this turn but gain +2 HP.
+
+    Telemachus is stoned to death for his actions.
+    ]], group = 'grey', textColor = {153/255, 153/255, 255}},
+
+                --blessings1
+                --['78f98e'] = { msg = 'Blessings of the People token...', group = 'Good', textColor = {255, 0/255, 0}, fcn = blessingsStuff },
+
+                --floorSpikes
+                ['ba80ad'] = { msg = 'Floor Spikes rise from the sand...', group = 'Bad', textColor = {1, 178/255, 102/255}},
+
+                --3 gold
+                --['f826d4'] = { msg = 'Gain 3 gold', group = 'Good', textColor = {0, 255, 0},fcn = threeGold},
+                --3 gold2
+                --['29fbb1'] = { msg = 'Gain 3 gold', group = 'Good', textColor = {0, 255, 0},fcn = threeGold},
+                --5 gold
+                --['d94970'] = { msg = 'Gain 5 gold', group = 'Good', textColor = {0, 255, 0},fcn = threeGold},
+                --5 gold2
+                --['1cf3a6'] = { msg = 'Gain 5 gold', group = 'Good', textColor = {0, 255, 0},fcn = threeGold},
+
+                --Blessings of GODS
+                ['58afef'] = { msg = 'The Gods have blessed you with the ability to grow back a missing limb...', group = 'Good', textColor = {0, 255, 0}},
+
+                --Flavius armor
+                ['02e3f2'] = { msg = 'Flavius takes off his armor and tosses it down to you.', group = 'Good', textColor = {0, 255, 0}},
+
+                --Lvl 3 weapon
+                ['2a7bfe'] = { msg = 'You get a free level 3 weapon', group = 'Good', textColor = {0, 255, 0}, fcn = buttonClickedMarket},
+                --Lvl 3 armor
+                ['0c2dc5'] = { msg = 'You get a free level 3 armor', group = 'Good', textColor = {0, 255, 0}, fcn = buttonClickedMarket},
+
+                --Lvl 2 weapon
+                ['559e18'] = { msg = 'You get a free level 2 weapon', group = 'Good', textColor = {0, 255, 0}, fcn = buttonClickedMarket},
+                --Lvl 2 armor
+                ['24959c'] = { msg = 'You get a free level 2 armor', group = 'Good', textColor = {0, 255, 0}, fcn = buttonClickedMarket},
+
+                --Lvl 1 weapon
+                ['7f40cb'] = { msg = 'You get a free level 1 weapon', group = 'Good', textColor = {0, 255, 0}, fcn = buttonClickedMarket},
+                --Lvl 1 armor
+                ['8ec918'] = { msg = 'You get a free level 1 armor', group = 'Good', textColor = {0, 255, 0}, fcn = buttonClickedMarket},
+
+                --Dodge
+                ['2d0b43'] = { msg = 'Dodge an attack! (Use at any time)', group = 'Good', textColor = {0, 255, 0}},
+
+
+                --move
+                ['f01231'] = { msg = '+1 movement for this turn only', group = 'Good', textColor = {0, 255, 0}},
+
+                --+1 movement for round
+                ['bc4008'] = { msg = '+1 movement for the remainder of this ROUND', group = 'Good', textColor = {0, 255, 0}},
+
+                --+2 movement
+                ['774197'] = { msg = '+2 movement for this turn only', group = 'Good', textColor = {0, 255, 0}},
+
+                --+2 gold and draw again
+                ['8956d6'] = { msg = '+2 Gold and Draw again', group = 'Good', textColor = {0, 255, 0}},
+
+                --+2 gold and draw again
+                ['293c50'] = { msg = '+2 Gold and Draw again', group = 'Good', textColor = {0, 255, 0}},
+
+
+
+
+
+
+
+
+
+
+
+
+               }
+
+
+
+
+               --hi
